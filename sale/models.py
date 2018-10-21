@@ -39,8 +39,8 @@ class Carinfo(models.Model):
     promise = models.TextField(null=True,verbose_name='卖家承诺')
     examine = models.CharField(max_length=30,choices=FOR_EXAMINE,default='1',verbose_name='审核进度')
     isPurchase = models.BooleanField(default=False,verbose_name='是否购买')
-    serbran = models.ForeignKey(Brand,verbose_name='车辆型号')
-    user = models.ForeignKey(UserInfo,verbose_name='用户')
+    serbran = models.ForeignKey(Brand,verbose_name='车辆型号',on_delete=models.CASCADE)
+    user = models.ForeignKey(UserInfo,verbose_name='用户',on_delete=models.CASCADE)
     isDelete = models.BooleanField(default=False,verbose_name='是否删除')
 
     def __str__(self):

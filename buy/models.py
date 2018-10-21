@@ -25,8 +25,8 @@ class Cart(models.Model):
         verbose_name_plural = verbose_name
 
 class Orders(models.Model):
-    sale_user = models.ForeignKey(UserInfo,related_name='suser',verbose_name='卖家')
-    buy_user = models.ForeignKey(UserInfo,related_name='buser',verbose_name='买家')
+    sale_user = models.ForeignKey(UserInfo,related_name='suser',verbose_name='卖家',on_delete=models.CASCADE)
+    buy_user = models.ForeignKey(UserInfo,related_name='buser',verbose_name='买家',on_delete=models.CASCADE)
     brand = models.CharField(max_length=30,null=False,verbose_name='车辆信息')
     picture = models.ImageField(default='normal.png',verbose_name='照片')
     price = models.CharField(max_length=30,null=False,verbose_name='成交价格')

@@ -12,7 +12,7 @@ def index(request):
     if brand == None:
         try:
             car_list = Carinfo.objects.filter(isPurchase=False,isDelete=False)
-            car_five = random.sample(list(car_list),5)
+            car_five = random.sample(list(car_list),2)
             brandlist = Brand.objects.all().order_by('id')
         except ObjectDoesNotExist as e:
             logging.warning(e)

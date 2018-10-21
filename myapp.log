@@ -12,3 +12,87 @@ Traceback (most recent call last):
   File "/usr/lib/python3.5/random.py", line 315, in sample
     raise ValueError("Sample larger than population")
 ValueError: Sample larger than population
+Sat, 20 Oct 2018 15:11:35 log.py[line:228] ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/dj/usedcar/front/views.py", line 15, in index
+    car_five = random.sample(list(car_list),5)
+  File "/usr/lib/python3.5/random.py", line 315, in sample
+    raise ValueError("Sample larger than population")
+ValueError: Sample larger than population
+Sat, 20 Oct 2018 15:11:38 log.py[line:228] WARNING Not Found: /favicon.ico
+Sat, 20 Oct 2018 15:11:39 log.py[line:228] WARNING Not Found: /favicon.ico
+Sat, 20 Oct 2018 15:12:02 log.py[line:228] WARNING Not Found: /userinfo
+Sat, 20 Oct 2018 15:12:15 log.py[line:228] WARNING Not Found: /api-auth
+Sat, 20 Oct 2018 15:12:26 log.py[line:228] WARNING Not Found: /api-auth/
+Sat, 20 Oct 2018 15:13:40 log.py[line:228] WARNING Not Found: /api-auth/
+Sat, 20 Oct 2018 15:14:54 log.py[line:228] WARNING Not Found: /api-auth/
+Sat, 20 Oct 2018 15:15:29 log.py[line:228] WARNING Not Found: /accounts/profile/
+Sat, 20 Oct 2018 15:35:53 log.py[line:228] WARNING Not Found: /accounts/profile/
+Sat, 20 Oct 2018 15:36:05 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:36:05 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:36:44 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:36:44 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:37:01 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:37:01 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:38:30 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:38:30 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:38:40 log.py[line:228] ERROR Internal Server Error: /index
+Traceback (most recent call last):
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/dj/usedcar/front/views.py", line 15, in index
+    car_five = random.sample(list(car_list),5)
+  File "/usr/lib/python3.5/random.py", line 315, in sample
+    raise ValueError("Sample larger than population")
+ValueError: Sample larger than population
+Sat, 20 Oct 2018 15:38:57 log.py[line:228] WARNING Not Found: /register
+Sat, 20 Oct 2018 15:39:17 log.py[line:228] WARNING Not Found: /user
+Sat, 20 Oct 2018 15:39:48 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:39:48 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:41:42 log.py[line:228] ERROR Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/tarena/.local/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/dj/usedcar/front/views.py", line 15, in index
+    car_five = random.sample(list(car_list),5)
+  File "/usr/lib/python3.5/random.py", line 315, in sample
+    raise ValueError("Sample larger than population")
+ValueError: Sample larger than population
+Sat, 20 Oct 2018 15:44:57 log.py[line:228] WARNING Not Found: /media/normal.png
+Sat, 20 Oct 2018 15:44:59 log.py[line:228] WARNING Not Found: /media/normal.png
+Sat, 20 Oct 2018 15:45:35 log.py[line:228] WARNING Not Found: /media/normal.png
+Sat, 20 Oct 2018 15:45:42 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:45:42 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:45:56 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:45:56 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:46:44 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:46:44 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:46:52 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:46:52 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 15:47:04 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 15:47:05 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 16:00:52 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 16:00:52 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 16:03:25 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 16:03:25 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 16:03:31 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 16:03:31 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sat, 20 Oct 2018 16:03:35 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sat, 20 Oct 2018 16:03:35 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+Sun, 21 Oct 2018 13:30:11 log.py[line:228] WARNING Not Found: /favicon.ico
+Sun, 21 Oct 2018 13:30:28 core.py[line:168] DEBUG Successfuly imported extension module "markdown.extensions.toc".
+Sun, 21 Oct 2018 13:30:28 core.py[line:131] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".

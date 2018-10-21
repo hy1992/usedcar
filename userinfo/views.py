@@ -20,7 +20,7 @@ def login_(request):
         user = auth.authenticate(username=username,password=upwd)
         if user is not None and user.is_active:
             auth.login(request,user)
-            return redirect('/')
+            return redirect('/index/')
         else:
             return render(request,'login.html',{'message':'您的用户名或密码有误'})
 
@@ -51,13 +51,13 @@ def register_(request):
 
 def register(request):
     if request.user.is_authenticated():
-        return redirect('/')
+        return redirect('/index/')
     else:
         return render(request,'register.html')
 
 def logout(request):
     auth.logout(request)
-    return redirect('/')
+    return redirect('/index/')
 
 def buyinfo(request):
     if request.method == 'POST':
@@ -70,7 +70,7 @@ def buyinfo(request):
             new_user.save()
         except ObjectDoesNotExist as e:
             logging.warning(e)
-        return redirect('/')
+        return redirect('/index/')
 
 def infomes_(request):
     if request.method == 'POST':
@@ -114,7 +114,7 @@ def infomes_(request):
             car.save()
         except ObjectDoesNotExist as e:
             logging.warning(e)
-        return redirect('/')
+        return redirect('/index/')
     return HttpResponse(" ")
 
 def service(request):
