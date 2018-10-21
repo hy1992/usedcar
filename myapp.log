@@ -1,0 +1,14 @@
+Fri, 05 Oct 2018 07:07:03 base.py[line:152] WARNING Not Found: /favicon.ico/
+Fri, 05 Oct 2018 07:12:18 exception.py[line:135] ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/tarena/dj/usedcar/front/views.py", line 15, in index
+    car_five = random.sample(list(car_list),5)
+  File "/usr/lib/python3.5/random.py", line 315, in sample
+    raise ValueError("Sample larger than population")
+ValueError: Sample larger than population
