@@ -46,6 +46,6 @@ urlpatterns = [
     url(r'^sale/', include('sale.urls')),
     url(r'^buy/', include('buy.urls')),
     url(r'^index/$', index, name='index'),
-    url(r'^', include(router.urls)),
+    url(r'^api/', include(router.urls)),
     url(r'^api-auth/',include('rest_framework.urls'),name='rest_framework')
 ] + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
